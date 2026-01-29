@@ -1,3 +1,4 @@
+# sources/aliexpress.py
 from sources.base import BaseSource
 from core.product import Product
 
