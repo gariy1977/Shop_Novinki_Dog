@@ -1,0 +1,11 @@
+[
+  {
+    "name": "demo_shop",
+    "search_url": "https://example.com/search?q={query}",
+    "product_selector": ".product",
+    "title_selector": ".title",
+    "price_selector": ".price",
+    "image_selector": "img",
+    "link_selector": "a"
+  }
+]
