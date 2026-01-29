@@ -1,4 +1,4 @@
-
+# core/filters.py
 from core.product import Product
 
 
