@@ -1,4 +1,4 @@
-
+# sources/custom_site.py
 from sources.base import BaseSource
 from core.product import Product
 
