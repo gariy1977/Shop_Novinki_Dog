@@ -1,3 +1,4 @@
+# main.py
 import asyncio
 from sources.aliexpress import AliExpressSource
 from core.pipeline import SearchPipeline
