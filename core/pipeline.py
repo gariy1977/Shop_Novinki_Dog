@@ -1,4 +1,4 @@
-
+# core/pipeline.py
 from typing import List
 from core.product import Product
 
