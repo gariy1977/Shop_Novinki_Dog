@@ -1,10 +1,1 @@
-[
-  {
-    "name": "my_shop",
-    "search_url": "https://example.com/search?q={query}",
-    "product_selector": ".product-card",
-    "title_selector": ".title",
-    "price_selector": ".price",
-    "image_selector": "img"
-  }
-]
+
