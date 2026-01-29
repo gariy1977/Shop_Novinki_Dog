@@ -5,10 +5,11 @@ from core.product import Product
 
 
 class BaseSource(ABC):
+    name: str = "unknown"
 
     @abstractmethod
     async def search(self, query: str) -> List[Product]:
         """
-        Ищет товары по запросу
+        Возвращает список товаров в формате Product
         """
-        pass
+        raise NotImplementedError("search() must be implemented in source")
