@@ -1,6 +1,6 @@
 # core/product.py
-from dataclasses import dataclass
-from typing import List
+from dataclasses import dataclass, field
+from typing import List, Optional
 
 
 @dataclass
@@ -9,5 +9,7 @@ class Product:
     description: str
     price: str
     link: str
-    images: List[str]   # URL картинок
-    source: str         # откуда найден
+    images: List[str] = field(default_factory=list)
+    source: str = "unknown"
+    rating: Optional[float] = None
+    sales: Optional[int] = None
