@@ -1,0 +1,9 @@
+{
+  "sites": [
+    {
+      "name": "example_shop",
+      "search_url": "https://example.com/search?q={query}",
+      "source": "custom_site"
+    }
+  ]
+}
