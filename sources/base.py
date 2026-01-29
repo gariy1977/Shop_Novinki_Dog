@@ -1,3 +1,4 @@
+# sources/base.py
 from abc import ABC, abstractmethod
 from typing import List
 from core.product import Product
