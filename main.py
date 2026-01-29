@@ -5,13 +5,17 @@ import logging
 from sources.aliexpress import AliExpressSource
 from core.pipeline import SearchPipeline
 from core.filters import filter_by_brand
-
+from sources.custom_site import CustomSiteSource
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s"
 )
 
+sources = [
+    AliExpressSource(),
+    CustomSiteSource()
+]
 
 async def run_search(query: str):
     logging.info(f"🔍 Поиск товаров: {query}")
